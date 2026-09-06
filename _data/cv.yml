@@ -22,15 +22,13 @@
   contents:
     - title: Master's Degree, Data Science
       institution: Shahid Beheshti University, Tehran, Iran
-      year: Sep 2024 - Sep 2026
+      year: Sep 2024 - Current
       description: |
-        - **GPA:** 18.29/20
         - **Thesis:** Designing a Dynamic Forecasting and Risk Management Framework in Stock Trading: A Probabilistic Deep Learning Approach *(Supervisor: Dr. Ehsan Bahrami Samani)*
     - title: Bachelor's Degree, Computer Engineering
       institution: Iran University of Science and Technology (IUST), Tehran, Iran
       year: Sep 2019 - Nov 2023
       description: |
-        - **GPA:** 15.61/20
         - **Thesis:** Storing Big Data on DNA: Design and Implementation of a Secure Pipeline Using Cryptographic Protocols *(Supervisor: Dr. Marzieh Malekimajd)*
 
 - title: Publications & Preprints
@@ -73,7 +71,7 @@
   contents:
     - title: Research Assistant
       institution: Shahid Beheshti University (Supervisor Dr. Mahboobeh Riahi-Madvar)
-      year: Apr 2024 - Sep 2026
+      year: Apr 2025 - Sep 2026
       description: |
         - **Lightweight Hybrid Deep Learning for Medical Time Series (CRNN-KAN):** Proposed a novel, parameter-efficient CRNN-KAN architecture for robust PCG classification, integrating a CNN-BiLSTM backbone with an EfficientKAN classification head. Achieved competitive AUC scores across three clinical datasets while reducing parameters to 1.31M. Validated acoustic representations using Score-CAM visualizations.
         - **Scalable Outlier Detection in Big Data (mCRMR-GPPO):** Developed a distributed unsupervised anomaly detection framework deployed on Apache Spark using MapReduce. Formulated the mCRMR subspace criterion using LSH and designed a hierarchical GPPO architecture.
@@ -83,12 +81,12 @@
       year: Oct 2025 - Dec 2025
       description: |
         - **Probabilistic Joint Forecasting of Bivariate Time Series:** Engineered a Bivariate Probabilistic LSTM framework to jointly forecast returns, volatility, and cross-asset correlations for commodity markets (Gold and Brent Crude Oil) using a dynamic Student-t likelihood optimized via NLL.
-    - title: Independent Co-Researcher
+    - title: Independent Researcher
       institution: Collaborative Research
       year: Jan 2026 - Present
       description: |
-        - **1D Reinforcement-Learned Wavelet KAN (RL-WavKAN):** Co-developed an ultra-lightweight 1D Wavelet KAN for direct raw audio classification, using a custom PPO agent to dynamically optimize scale and translation of wavelet basis functions (145K parameters, 0.036 ms/sample inference latency).
-        - **Stieltjes-Wigert q-Orthogonal Polynomials in KANs (SW-KAN):** Co-authored the SW-KAN architecture replacing B-spline activations with q-orthogonal polynomials, introducing a smooth exponential-of-tanh domain mapping for robust gradient stability.
+        - **1D Reinforcement-Learned Wavelet KAN (RL-WavKAN):** Developed an ultra-lightweight 1D Wavelet KAN for direct raw audio classification, using a custom PPO agent to dynamically optimize scale and translation of wavelet basis functions (145K parameters, 0.036 ms/sample inference latency).
+        - **Stieltjes-Wigert q-Orthogonal Polynomials in KANs (SW-KAN):** Developed the SW-KAN architecture replacing B-spline activations with q-orthogonal polynomials, introducing a smooth exponential-of-tanh domain mapping for robust gradient stability.
     - title: Undergraduate Research Assistant
       institution: Iran University of Science and Technology (Supervisor Dr. Marzieh Malekimajd)
       year: Sep 2022 - Sep 2023
