@@ -1,189 +1,182 @@
-cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+- title: General Information
+  type: info
+  contents:
+    - name: Full Name
+      value: Seyyed Moein Kazemi
+    - name: Email
+      value: seyy.kazemi@mail.sbu.ac.ir
+    - name: Languages
+      value: Persian (Native), English (Professional Working Proficiency)
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+- title: Research Interests
+  type: list
+  contents:
+    - Deep Learning
+    - Deep Reinforcement Learning
+    - Medical AI
+    - Efficient Deep Learning
+    - Time Series Forecasting
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+- title: Education
+  type: time_table
+  contents:
+    - title: Master's Degree, Data Science
+      institution: Shahid Beheshti University, Tehran, Iran
+      year: Sep 2024 - Sep 2026
+      description: |
+        - **GPA:** 18.29/20
+        - **Thesis:** Designing a Dynamic Forecasting and Risk Management Framework in Stock Trading: A Probabilistic Deep Learning Approach *(Supervisor: Dr. Ehsan Bahrami Samani)*
+    - title: Bachelor's Degree, Computer Engineering
+      institution: Iran University of Science and Technology (IUST), Tehran, Iran
+      year: Sep 2019 - Nov 2023
+      description: |
+        - **GPA:** 15.61/20
+        - **Thesis:** Storing Big Data on DNA: Design and Implementation of a Secure Pipeline Using Cryptographic Protocols *(Supervisor: Dr. Marzieh Malekimajd)*
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Publications & Preprints
+  type: time_table
+  contents:
+    - title: "CRNN-KAN: A Lightweight Hybrid Framework for Robust Phonocardiogram Classification"
+      institution: "Informatics in Medicine Unlocked (Under Review)"
+      year: "2026"
+      description: |
+        - **Authors:** Kazemi, S. M., Azarpour, A., Riahi Madvar, M.
+    - title: "RL-WavKAN: An Ultra-Lightweight Reinforcement-Learned Wavelet Kolmogorov–Arnold Network for Phonocardiogram Classification"
+      institution: "Manuscript in Preparation"
+      year: "2026"
+      description: |
+        - **Authors:** Kazemi, S. M., Heydari, P.
+    - title: "SW-KAN: Kolmogorov–Arnold Networks with Stieltjes–Wigert q-Orthogonal Polynomials"
+      institution: "Neurocomputing (Under Review)"
+      year: "2026"
+      description: |
+        - **Authors:** Azarpour, A, Kazemi, S. M.
+    - title: "Scalable unsupervised outlier detection in high-dimensional big data via collision-based subspace selection and deep reinforcement learning"
+      institution: "Applied Soft Computing (Under Review)"
+      year: "2026"
+      description: |
+        - **Authors:** Riahi Madvar, M., Kazemi, S. M., Yousefi, S.
+    - title: "Probabilistic Joint Forecasting of Bivariate Time Series with LSTM via Dynamic Student-t Likelihood"
+      institution: "Annals of Data Science (Under Review)"
+      year: "2026"
+      description: |
+        - **Authors:** Kazemi, S. M., Bahrami Samani, E.
+    - title: "Discovering Actionable Marketing Insights: Rare Association Rule Mining for Customer Behavior Analysis"
+      institution: "2025 10th International Congress on Fuzzy and Intelligent Systems (CFIS)"
+      year: "2025"
+      description: |
+        - **Authors:** Kazemi, S. M., Ghanbary, S., Riahi-Madvar, M.
+        - **DOI:** 10.1109/CFIS68949.2025.11652160
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Shahid Beheshti University (Supervisor Dr. Mahboobeh Riahi-Madvar)
+      year: Apr 2024 - Sep 2026
+      description: |
+        - **Lightweight Hybrid Deep Learning for Medical Time Series (CRNN-KAN):** Proposed a novel, parameter-efficient CRNN-KAN architecture for robust PCG classification, integrating a CNN-BiLSTM backbone with an EfficientKAN classification head. Achieved competitive AUC scores across three clinical datasets while reducing parameters to 1.31M. Validated acoustic representations using Score-CAM visualizations.
+        - **Scalable Outlier Detection in Big Data (mCRMR-GPPO):** Developed a distributed unsupervised anomaly detection framework deployed on Apache Spark using MapReduce. Formulated the mCRMR subspace criterion using LSH and designed a hierarchical GPPO architecture.
+        - **Rare Association Rule Mining for Bank Marketing:** Designed an interpretable data mining pipeline using adaptive dynamic minimum-support and MinHash LSH to extract actionable "flip rules", improving targeted campaign conversion rates from 11.7% to 64.7% (5.53x lift).
+    - title: Research Assistant
+      institution: Shahid Beheshti University (Supervisor Dr. Ehsan Bahrami Samani)
+      year: Oct 2025 - Dec 2025
+      description: |
+        - **Probabilistic Joint Forecasting of Bivariate Time Series:** Engineered a Bivariate Probabilistic LSTM framework to jointly forecast returns, volatility, and cross-asset correlations for commodity markets (Gold and Brent Crude Oil) using a dynamic Student-t likelihood optimized via NLL.
+    - title: Independent Co-Researcher
+      institution: Collaborative Research
+      year: Jan 2026 - Present
+      description: |
+        - **1D Reinforcement-Learned Wavelet KAN (RL-WavKAN):** Co-developed an ultra-lightweight 1D Wavelet KAN for direct raw audio classification, using a custom PPO agent to dynamically optimize scale and translation of wavelet basis functions (145K parameters, 0.036 ms/sample inference latency).
+        - **Stieltjes-Wigert q-Orthogonal Polynomials in KANs (SW-KAN):** Co-authored the SW-KAN architecture replacing B-spline activations with q-orthogonal polynomials, introducing a smooth exponential-of-tanh domain mapping for robust gradient stability.
+    - title: Undergraduate Research Assistant
+      institution: Iran University of Science and Technology (Supervisor Dr. Marzieh Malekimajd)
+      year: Sep 2022 - Sep 2023
+      description: |
+        - **Secure Big Data Storage on DNA:** Developed a complete data-to-DNA simulation pipeline in Python integrating binary conversion, Huffman coding, and cryptographic security layers (AES, OTP) to protect synthesized genetic data.
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Head Teaching Assistant & Teaching Assistant
+      institution: Advanced Data Mining (Dr. Mahboobeh Riahi-Madvar)
+      year: ""
+    - title: Teaching Assistant
+      institution: Machine Learning, Multivariate Analysis (Dr. Sakineh Dehghan)
+      year: ""
+    - title: Teaching Assistant
+      institution: Machine Learning, Advanced ML, Pattern Recognition (Dr. Ahmad Ali Abin)
+      year: ""
+    - title: Teaching Assistant
+      institution: Big Data (Dr. Hamed Malek)
+      year: ""
+    - title: Teaching Assistant
+      institution: Deep Learning (Dr. Zeinab Hajimohammadi)
+      year: ""
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Selected Technical Projects
+  type: time_table
+  contents:
+    - title: Multimodal Vision-Language Medical Report Generator (CXR-Report-Generator)
+      institution: Deep Learning & Medical AI
+      year: ""
+      description: |
+        Developed an end-to-end encoder-decoder pipeline combining Vision Transformer (ViT) and GPT-2 to automatically generate clinical reports from Chest X-ray images via cross-attention mechanisms. *Tools: PyTorch, Hugging Face Transformers, Python, OpenCV.*
+    - title: FracAtlas Bone Fracture CAD Pipeline
+      institution: Computer Vision & Medical AI
+      year: ""
+      description: |
+        Built a multi-task computer-aided diagnosis system utilizing DenseNet-121 for global classification and ResNet34-UNet for precise semantic segmentation, integrated with Meta's SAM for zero-shot boundary delineation. *Tools: PyTorch, Segmentation Models, OpenCV, Python, Segment Anything (SAM).*
+    - title: DeepRC Immune Repertoire Classification
+      institution: Biomedical AI
+      year: ""
+      description: |
+        Implemented a deep Multiple Instance Learning (MIL) framework using 1D CNN and LSTM sequence encoders paired with attention pooling to predict disease status from high-throughput immunosequencing data. *Tools: PyTorch, SciPy, Scikit-Learn, H5py, Python.*
+    - title: Multimodal Semantic Image Search & Recommender
+      institution: Information Retrieval & Web
+      year: ""
+      description: |
+        Architected an end-to-end visual search engine leveraging OpenAI CLIP for deep semantic feature extraction and Qdrant vector database for high-performance K-NN retrieval, backed by FastAPI and React. *Tools: FastAPI, React.js, Qdrant, CLIP, PyTorch, Python.*
+    - title: Semantic Graph Applications & Knowledge Engineering
+      institution: Data Mining & Ontologies
+      year: ""
+      description: |
+        Constructed semantic graph applications over the FarsNet ontology, modeling an economic gold price knowledge graph using Neo4j and OWL, and evaluating large language model reasoning performance. *Tools: Neo4j, Cypher, RDF, OWL, Python.*
+    - title: Static Code Metrics Analyzer
+      institution: Software Engineering
+      year: ""
+      description: |
+        Constructed a static code metrics analyzer in Python using ANTLR grammar parsers for Java to parse Abstract Syntax Trees (AST) and compute code complexity metrics. *Tools: Python, ANTLR4, Java, AST.*
+    - title: Multi-app Django Backend for Charity Platform
+      institution: Web Development & Backend
+      year: ""
+      description: |
+        Developed a scalable multi-app Django backend infrastructure for a charity platform with complex database schemas, RESTful APIs, and secure user management. *Tools: Python, Django, PostgreSQL, RESTful APIs.*
+    - title: Digital Hardware System Project in VHDL
+      institution: Computer Engineering Core
+      year: ""
+      description: |
+        Developed a digital hardware system project implementing custom sequential and combinational logic modules in VHDL, synthesized and simulated using Xilinx Vivado. *Tools: VHDL, Xilinx Vivado.*
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+- title: Selected Coursework
+  type: time_table
+  contents:
+    - title: Machine Learning & AI
+      institution: "Machine Learning (19.75/20), Deep Learning (19.5/20), Advanced Data Mining (19.25/20), Multi-Agent Systems [Focus: RL & LLMs] (19/20), Artificial Neural Networks (18.5/20)"
+      year: ""
+    - title: Mathematics & Foundations
+      institution: "Differential Equations (19/20), Multivariate Statistical Analysis (18.5/20), Engineering Probability & Statistics (17/20)"
+      year: ""
+    - title: Data Systems & Analytics
+      institution: "Big Data Analytics (17.25/20)"
+      year: ""
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+- title: Honors & Awards
+  type: time_table
+  contents:
+    - title: Top 1.5% Nationwide (M.Sc. Admission)
+      institution: Iranian Nationwide University Entrance Exam for Master's programs in Computer Engineering
+      year: 2024
+    - title: Top 0.6% Nationwide (B.Sc. Admission)
+      institution: Iranian Nationwide University Entrance Exam for Bachelor's programs in Engineering
+      year: 2019
