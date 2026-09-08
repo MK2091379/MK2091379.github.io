@@ -10,7 +10,7 @@ toc:
 ---
 
 <div class="text-center my-4">
-  <a href="{{ '/assets/pdf/MoeinCV.pdf' | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+  <a href="{{ '/assets/pdf/Kazemi_CV.pdf' | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
     <i class="fa-solid fa-file-pdf"></i> Download CV (PDF)
   </a>
 </div>
