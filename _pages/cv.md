@@ -36,9 +36,9 @@ Deep Learning &middot; Deep Reinforcement Learning &middot; Medical AI &middot; 
 
 1. **Kazemi, S. M.**, Azarpour, A., Riahi Madvar, M. CRNN-KAN: A Lightweight Hybrid Framework for Robust Phonocardiogram Classification. *Informatics in Medicine Unlocked*. Status: Under Review.
 2. **Kazemi, S. M.**, Heydari, P. RL-WavKAN: An Ultra-Lightweight Reinforcement-Learned Wavelet Kolmogorov–Arnold Network for Phonocardiogram Classification. Status: Manuscript in Preparation.
-3. Azarpour, A, **Kazemi, S. M.** SW-KAN: Kolmogorov–Arnold Networks with Stieltjes–Wigert q-Orthogonal Polynomials. *Neurocomputing*. Status: Under Review.
+3. Azarpour, A, **Kazemi, S. M.** SW-KAN: Kolmogorov–Arnold Networks with Stieltjes–Wigert q-Orthogonal Polynomials. *Applied Mathematics and Computation*. Status: Under Review.
 4. Riahi Madvar, M., **Kazemi, S. M.**, Yousefi, S. Scalable unsupervised outlier detection in high-dimensional big data via collision-based subspace selection and deep reinforcement learning. *Applied Soft Computing*. Status: Under Review.
-5. **Kazemi, S. M.**, Bahrami Samani, E. Probabilistic Joint Forecasting of Bivariate Time Series with LSTM via Dynamic Student-$t$ Likelihood. *Annals of Data Science*. Status: Under Review. 
+5. **Kazemi, S. M.**, Bahrami Samani, E. Probabilistic Joint Forecasting of Bivariate Time Series with LSTM via Dynamic Student-$t$ Likelihood. *Computational Economics*. Status: Under Review. 
 6. **Kazemi, S. M.**, Ghanbary, S., Riahi-Madvar, M. Discovering Actionable Marketing Insights: Rare Association Rule Mining for Customer Behavior Analysis. *2025 10th International Congress on Fuzzy and Intelligent Systems (CFIS)*. DOI: 10.1109/CFIS68949.2025.11652160.
 
 ---
